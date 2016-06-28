@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400,600,300,800);
+body{
+    background-color: white;
+    color: blak;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif
+}
+.page-body{
+    background-color: white;
+    box-sizing: border-box;
+    height: 220px;
+    width: 1275px;
+    margin: 0 auto;
+    padding: 50px 47px;
+}
+
+.logo{
+    font-size: 50px;
+    margin: -1px -1px;
+}
+
+.top-menu{
+    background: linear-gradient(to bottom, #5e5e5e 0%,#444343 100%);
+    font-size: 0;
+    height: 40px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.top-menu a{
+    width: 87px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 34px;
+    padding: 12px 10px;
+    display: inline-block;
+}
+
+.top-menu a:hover{
+    background: linear-gradient(to bottom, #4a4a4a 0%,#2e2e2e 100%);
+    width: 90px;
+    border-left: 1px solid #838383;
+    border-right: 1px solid #838383;
+}
+
+.left-menu{
+    height: 500px;
+    width: 300px;
+    float: left;
+
+}
+
+.left-menu a{
+    border-bottom: 10px;
+    color: #656363;
+    text-decoration: none;
+    padding: 13px 22px;
+    margin: 0px 17px 0px 47px;
+    display: block;
+    border: 1px solid #838383; /* Рамка вокруг таблицы */
+}
+
+
+.left-menu a:hover{
+    background-color: #f9f9f9;
+    color: #2c2c2c;
+    padding-left: 35px;
+}
+
+.content{
+    height: 600px;
+    width: 930px;
+    float: right;
+    margin-bottom: 40px;
+}
+
+.content img{
+    background-color: white;
+    border: 1px solid gray;
+    padding: 46px 190px;
+}
+
+.content p{
+  line-height: normal;
+  margin: 0px 60px -10px -35px;
+  padding: 50px;
+}
+
+footer{
+    background-color: #e1e1e1;
+    margin: 0 50px 0 50px;
+    clear: right;
+}
+
+footer a{
+    font-size: 13px;
+    display: inline-block;
+    margin: 0 55px 0 10px;
+    padding: 13px;
+    color: #2c2c2c;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .copyright{
+    display: inline-block;
+    text-align: center;
+    margin-left: 410px;
+}
